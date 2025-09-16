@@ -15,9 +15,21 @@ Recent progress in large language models (LLMs) has been propelled by reinforcem
 </div>
 
 ## V-C Reasoning System Evaluation Instructions
-xxx
-xxx
-  
+step1: Download our released model or other open source models
+step2: Deploy service via VLLM
+step3: Run the V-C reasoning system by the following commands:
+```
+python3 vc_reasoning_system.py solver_ip_port_1,solver_ip_port_2,... vc_ip_port_1,vc_ip_port_2,... test_file output_dir
+for example: python3 vc_reasoning_system.py 8.8.8.8:8021,12.34.56.78:8021 8.8.8.8:8021,12.34.56.78:8021 ./outputs/debug ./aime_2025.jsonl
+```
+This step will run the reasoning system for each problem in the given $test_file$, the predicted results can be found in the output_dir
+step4: Extract final solutions by the following commands:
+```
+python3 extract_solution.py result_dir test_file
+for example: python3 extract_solution.py ./outputs/debug ./aime_2025.jsonl
+```
+This step will generate a file named "eval_overalljsonl" in the input_dir. Your can evaluate the acc based on this file.
+
 
 ## Acknowledgements
 - Our implementation is heaviliy built on [verl](https://github.com/volcengine/verl).
