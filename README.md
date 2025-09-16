@@ -16,7 +16,7 @@ Recent progress in large language models (LLMs) has been propelled by reinforcem
 
 ## V-C Reasoning System Evaluation Instructions
 ### step1: Download our released model or other open source models
-Supported models: Qwen3/DeepSeekV3.1/DeepSeek R1 
+Supported models: Qwen3/DeepSeekV3.1/DeepSeek R1. You can modify the llm_client.py to use other models.
 
 ### step2: Deploy service via VLLM
 
