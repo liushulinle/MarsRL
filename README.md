@@ -15,7 +15,7 @@ Recent progress in large language models (LLMs) has been propelled by reinforcem
 </div>
 
 ## V-C Reasoning System Evaluation Instructions
-step1: Download our released model or other open source models
+###step1: Download our released model or other open source models
 
 step2: Deploy service via VLLM
 
