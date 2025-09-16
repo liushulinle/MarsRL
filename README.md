@@ -32,7 +32,7 @@ This step will run the reasoning system for each problem in the given $test_file
 python3 extract_solution.py result_dir test_file
 for example: python3 extract_solution.py ./outputs/debug ./aime_2025.jsonl
 ```
-This step will generate a file named "eval_overalljsonl" in the input_dir. Your can evaluate the acc based on this file.
+This step will generate a file named "eval_overalljsonl" in the input_dir. Your can evaluate the metrics based on this file.
 
 
 ## Acknowledgements
