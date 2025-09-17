@@ -5,6 +5,7 @@
 <div>
    Advancing <strong>M</strong>ulti-<strong>A</strong>gent <strong>R</strong>easoning <strong>S</strong>ystem via <strong>R</strong>einforcement <strong>L</strong>earning with Agentic Pipeline Parallelism
 </div>
+<a href="#">Paper</a> | <a href="https://huggingface.co/forestliutc/MarsRL" target="_blank">HuggingFace</a>
 </div>
 
 ## Overview
