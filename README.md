@@ -45,7 +45,7 @@ Thanks for their wonderful work.
 
 ## Citation
 ```bibtex
-@article{Ulorl2025,
+@article{Marsrl2025,
     title = {MarsRL: Advancing Multi-Agent Reasoning System via Reinforcement Learning with Agentic Pipeline Parallelism},
     author = {Shulin Liu, Dong Du, Tao Yang, Yang Li, Boyu Qiu}
     year = {2025}
